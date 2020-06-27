@@ -1,0 +1,98 @@
+/**********************************************/
+
+/* -------- ( 1 ) Index Page Css ------------ */
+
+/****************************************************/
+ 
+
+/* -------- ( 1.1 ) WHY CHOOSE US  ------------ */
+/* (1.1.1) LIST HORIZONTAL DISPLAY */
+  li {
+        float: left;
+        margin: 10px 20px;
+        list-style-type: decimal;
+        width: 150px;
+    }
+
+
+/* -------- ( 1.2 )FACILITY  ------------ */
+.facility_icons_bg {
+        width: 170px;
+        margin: 15px;
+        padding: 10px;
+        border-bottom: 3px solid #fdfdfd;
+        float: left;
+        text-align: center;
+    }
+
+    .facility_icons_bg p {
+        margin-bottom: 0px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .facility_icons_bg i {
+        margin: 15px;
+        /*        border: 3px solid #c9c9c9; */
+        border-radius: 50px;
+    }
+
+    .facility_icons_bg:hover {
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+        background: rgba(255, 255, 255, 0.4);
+        border-bottom: 3px solid #4773b9;
+    }
+
+ /* -------- ( 1.3 ) BLOG  ------------ */
+
+    .box button {
+        display: block;
+        position: static;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border-radius: 0;
+        padding: 8px 0;
+    }
+
+
+    .blog_post {
+        background: rgba(0, 0, 0, 0.01);
+        margin: 10px 0px;
+
+    }
+
+    .blog_post span {
+        font-weight: 700;
+        background: rgba(71, 115, 185, 0.15);
+        padding: 0px 4px;
+
+    }
+
+    .blog_post p {
+        padding: 10px;
+        min-height: 70px;
+    }
+
+    .blog_post img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .blog_post button {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.01);
+        color: #3e3e3e;
+    }
+
+    .blog_post button:hover {
+        border: 2px solid rgba(71, 115, 185, 0.12);
+        background: #4773b9;
+        color: #fdfdfd;
+    }
+
+/* -------- ( 1.4 ) GALLERY  ------------ */
+    .gallery_image img {
+        width: 100%;
+        margin-bottom: 20px;
+    }

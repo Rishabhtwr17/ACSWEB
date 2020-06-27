@@ -1,0 +1,107 @@
+
+    .menu{
+        z-index: 1;
+        background-color:rgba(0,0,0,0.3);
+        position:fixed;
+        top:0px;
+        left:0px;
+        width:100%;	
+
+        }
+
+    #menu-icon{
+        background:url(../image/menuIcon.png);
+        height:32px;
+        width:32px;
+        display:hidden;
+        }
+
+    .menu::after{
+        content:'';
+        display:block;
+        clear:both;	
+        }
+
+    .menu ul{
+        list-style:none;
+        margin:0;
+        padding:0;
+        }
+
+    .menu ul li:hover > ul{
+        display: block;		
+        }
+
+    .menu ul li a{
+        display:inline-block;
+        color:#fff;
+        padding:10px 20px;
+        text-decoration:none;
+        width:200px;
+        }
+
+    .menu ul li:hover{
+      background-color:#01579B;
+    }
+
+    .menu ul li a:hover > ul{
+        display:block;
+    }
+
+    .menu ul li a:visited{
+        color:#ffffff;
+            }
+
+    .menu ul li a:hover{
+        background-color:rgba(55,55,55,0.5);	
+            }
+
+    .menu ul ul{
+        position:absolute;
+        top:100%;
+        background-color:#000000;	
+        display:none;
+    }
+
+    .menu ul ul li{
+        position:relative;
+        }
+
+    .menu ul li span{
+        text-transform: uppercase;
+        font-size:0.8em;
+    }
+
+    .hamburger-menu {
+      padding:1em;
+      display:none;
+      font:normal normal normal 16px/1 Roboto;
+      text-transform:uppercase;
+    }
+
+    /* -------- Auto adjust navbar -----*/
+    #nav.shrink {
+      height: 56px;
+      transition: all ease .5s;
+      background: black; 
+    }
+    #nav.shrink ul li span{
+        text-transform: uppercase;
+        font-size:0.9em;
+    }
+
+
+    /* ----------- Nav Top Level Elements ----------- */
+
+    .menu > ul{
+        padding-left:350px;
+        }
+
+    .menu > ul >li{
+        float:left;
+        }
+
+    .menu > ul >li > a{
+        width: auto;
+        padding:20px;
+        }

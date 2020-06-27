@@ -1,0 +1,79 @@
+/**********************************************/
+
+/* -------- ( 3 ) Academics Page Css ------------ */
+
+/****************************************************/
+
+
+/* -------- ( 3.1 ) Campus Feature  ------------ */
+.campus_feature_bg {
+    width: 500px;
+    margin: 15px;
+    padding: 10px;
+    border-bottom: 3px solid #fdfdfd;
+    float: left;
+    text-align: center;
+}
+
+.campus_feature_bg p {
+    text-transform: none;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+.campus_feature_bg span {
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+
+.campus_feature_bg i {
+    margin: 15px;
+    border-radius: 50px;
+}
+
+.campus_feature_bg li:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.4);
+    border-bottom: 3px solid #4773b9;
+}
+
+.campus_feature_bg li {
+    list-style: decimal-leading-zero;
+    font-size: 1.2em;
+    margin: 0 0 0 40px;
+    text-align: left;
+    padding-left: 10px;
+    width: 80%;
+
+}
+
+.campus_feature_bg li span {
+    font-size: 0.8em;
+}
+
+.campus_feature_bg ol {
+    margin: 0px;
+    padding: 0px;
+}
+
+#campus_feature li {
+    margin-bottom: 0px;
+    list-style-type: decimal;
+    width: 83%;
+    padding-left: 10px;
+}
+
+/* -------- ( 3.2 ) Guidelines  ------------ */
+#our_guideline a {
+    color: #3e3e3e;
+}
+
+#our_guideline a:hover {
+    color: #3e3e3e;
+    padding: 0px 10px;
+    border-left: 5px solid #3e3e3e;
+    border-bottom: 1px solid #3e3e3e;
+    text-decoration-line: none;
+}

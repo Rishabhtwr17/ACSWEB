@@ -1,0 +1,167 @@
+/**********************************************/
+
+/* -------- ( 6 ) Gallery - Video Player ------------ */
+
+/****************************************************/
+
+/* -------- ( 6.1 ) Video title and Caption  ------------ */
+
+    .title {
+        width: 100%;
+        max-width: 854px;
+        margin: 0 auto;
+    }
+
+    .caption {
+        width: 100%;
+        max-width: 854px;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+/* -------- ( 6.2 ) VIDEO PLAYER CONTAINER  ------------ */
+    .vid-container {
+        position: relative;
+        padding-bottom: 52%;
+        padding-top: 30px;
+        height: 0;
+    }
+
+    .vid-container iframe,
+    .vid-container object,
+    .vid-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+/* -------- ( 6.3 ) VIDEOS PLAYLIST  ------------ */
+
+/* (6.3.1) Playlist Container */    
+.vid-list-container {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 2%;
+    }
+
+    .vid-list {
+        width: 1344px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .vid-item {
+        display: block;
+        width: 148px;
+        height: 148px;
+        float: left;
+        margin: 0;
+        padding: 10px;
+    }
+
+/* (6.3.2) Playlist Thumnail  */
+
+    .thumb {
+        position: relative;
+        overflow: hidden;
+        height: 84px;
+    }
+
+    .thumb img {
+        width: 100%;
+        position: relative;
+        top: -13px;
+    }
+
+/* (6.3.3) Playlist  Description */
+
+
+    .vid-item .desc {
+        color: #3e3e3e;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .vid-item:hover {
+        background: #eee;
+        cursor: pointer;
+
+    }
+
+/* (6.3.4) Playlist Arrow */
+
+    .arrows {
+        position: relative;
+        width: 100%;
+    }
+
+    .arrow-left {
+        margin-top: 20px;
+        color: #fff;
+        background: #777;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 99;
+        cursor: pointer;
+    }
+
+    .arrow-right {
+        margin-top: 20px;
+        color: #fff;
+        background: #777;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        z-index: 100;
+        cursor: pointer;
+    }
+
+
+    .arrow-left:hover {
+        background: #4773b9;
+    }
+
+    .arrow-right:hover {
+        background: #4773b9;
+    }
+
+
+
+    @media (max-width: 624px) {
+        body {
+            margin: 15px;
+        }
+
+        .caption {
+            margin-top: 40px;
+        }
+
+        .vid-list-container {
+            padding-bottom: 20px;
+        }
+
+        /* reposition left/right arrows */
+        .arrows {
+            position: relative;
+            margin: 0 auto;
+            width: 96px;
+        }
+
+        .arrow-left {
+            left: -17px;
+            top: 0px;
+        }
+
+        .arrow-right {
+            right: -17px;
+            top: 0px;
+        }
+    }
+
+    }

@@ -1,0 +1,274 @@
+/* CSS Document */
+
+/**********************************************/
+
+/* -------- FONT USE ------------ */
+
+/****************************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
+
+
+/**********************************************/
+
+/* -------- Base Css ------------ */
+
+/****************************************************/
+
+
+html,
+body {
+
+    font-family: 'Lora', serif;
+    font-size: 10px;
+    background-color: #fdfdfd;
+    color: #373737;
+
+}
+
+.container {
+    margin-bottom: 50px;
+}
+
+button {
+    border: 2px solid #3e3e3e;
+    padding: 8px;
+    width: 200px;
+    font-size: 1.5em;
+    background-color: #3e3e3e;
+    color: #fdfdfd;
+}
+
+/* -------- page background ------------ */
+
+::selection {
+    background: #4773b9;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: #4773b9;
+}
+
+/* -------- page scrollbar ------------ */
+
+body::-webkit-scrollbar {
+    width: 0.8em;
+    height: 50px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #fdfdfd;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #4773b9;
+    border-radius: 20px;
+}
+
+
+/* -------- page text ------------ */
+
+h1 {
+    margin-bottom: 2.3rem;
+    font-family: Montserrat;
+    font-size: 5.7220458984375em;
+    line-height: 6.8999999999999995rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2.3rem;
+    font-family: Montserrat;
+    font-size: 4.57763671875em;
+    line-height: 4.6rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    margin-bottom: 2.3rem;
+    font-family: Montserrat;
+    font-size: 3.662109375em;
+    line-height: 4.6rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+
+}
+
+h4 {
+    margin-bottom: 2.3rem;
+    font-family: Montserrat;
+    font-size: 2.9296875em;
+    line-height: 4.6rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+
+}
+
+h5 {
+    margin-bottom: 2.3rem;
+    font-family: Montserrat;
+    font-size: 2.34375em;
+    line-height: 4.6rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+}
+
+h6 {
+    margin-bottom: 2.3rem;
+    font-family: Montserrat;
+    font-size: 1.875em;
+    line-height: 2.3rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+
+}
+
+p {
+    margin-bottom: 2.3rem;
+    font-family: Lora;
+    font-size: 1.5em;
+    line-height: 2.3rem;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+/* -------- page links ------------ */
+
+a {
+    color: #fdfdfd;
+    font-family: Lora;
+    font-size: 1em;
+    line-height: 2.3rem;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+a:hover {
+    color: #fdfdfd;
+    padding: 0px 10px;
+    border-left: 5px solid #fdfdfd;
+    border-bottom: 1px solid #fdfdfd;
+    text-decoration-line: none;
+}
+
+/* -------- page list ------------ */
+ul,
+ol {
+    font-family: Lora;
+    font-size: 1.5em;
+    line-height: 2.3rem;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+ul li {
+    margin-bottom: 10px;
+    width: 90%;
+    list-style-type: decimal;
+}
+
+ul li + ul li {
+    list-style-type: none;
+    font-size: 0.7em;
+}
+
+ul li + ul {
+    padding: 0px;
+}
+
+/* -------- page text bold and italic ------------ */
+.bold_text span {
+    font-style: italic;
+    font-weight: 700;
+}
+
+/* -------- page Footer ------------ */
+
+#footer {
+    background-color: #3E3E3E;
+    color: #fdfdfd;
+}
+
+.fa {
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-youtube-play,
+.fa-instagram {
+    background: #fdfdfd;
+    color: #3e3e3e;
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube-play:hover {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram:hover {
+    background: #125688;
+    color: white;
+}
+
+.footer-menu > ul > li,
+.footer_social_media > ul > li {
+    margin: 5px 0px;
+    list-style-type: none;
+}
+
+.footer-menu > ul,
+.footer_social_media > ul {
+    padding: 0px;
+}
+
+.footer_social_media > ul > li {
+    width: 40px;
+    margin: 0px 10px;
+}
+
+.footer_social_media > ul > li > a:hover {
+    color: #fdfdfd;
+    padding: 0px;
+    border: none;
+    text-decoration-line: none;
+}
+
+.footer_section > .container {
+    margin-bottom: 0px;
+}

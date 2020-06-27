@@ -1,0 +1,17 @@
+/**********************************************/
+
+/* -------- ( 4 ) Admission Page Css ------------ */
+
+/****************************************************/
+
+
+/* -------- ( 4.1 ) Admission Process  ------------ */
+    #admission_process ul {
+        padding: 0px 20px;
+    }
+
+    #admission_process li {
+        margin-bottom: 10px;
+        list-style-type: decimal;
+        width: 83%;
+    }

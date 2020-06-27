@@ -1,0 +1,437 @@
+    /****************************************************/
+
+    /************ Home Page ***************/
+
+    /****************************************************/
+#imagesection img{
+    height: 150px;
+}
+.bgimg_gallery{
+        background-image: url(../image/slider/phone-1412636_1920.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 300px;
+}
+
+.bgimg_academics{
+        background-image: url(../image/slider/banner0.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 300px;
+}
+.bgimg_about{
+        background-image: url(../image/slider/angel-school.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 300px;
+        }
+
+.bgimg_admission{
+        background-image: url(../image/slider/banner0a.jpg);
+        background-size: cover;
+        background-position: center 82%;
+        width: 100%;
+        height: 300px;
+        }
+
+
+.bgimg_contact{
+        background-image: url(../image/slider/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 300px;
+
+}
+
+    /* ----**---- Header Section ------**------ */
+
+    /*-1. Slider -*/
+
+    /*-- 1.1 banner-text --*/
+
+    .header-w3layouts {
+        position: absolute;
+        top: 0;
+        z-index: 99;
+        text-align: center;
+        left: 0;
+        width: 100%;
+    }
+
+    .agileits-banner-info h3 {
+        color: #fff;
+        font-size: 6em;
+        margin: 0.1em 0 0.2em 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-shadow: 1px 1px 2px rgb(12, 12, 12);
+        -webkit-text-shadow: 1px 1px 2px rgb(12, 12, 12);
+        -o-text-shadow: 1px 1px 2px rgb(12, 12, 12);
+        -moz-text-shadow: 1px 1px 2px rgb(12, 12, 12);
+
+    }
+
+    .agileits-banner-info h3 span {
+        background: #2529d8;
+        padding: 0 15px;
+    }
+
+    .agileits-banner-info {
+        text-align: left;
+        padding: 18em 0 0em;
+    }
+
+    .agileits-banner-info p {
+        color: #e2dfdf;
+        font-size: 1em;
+        line-height: 2.2em;
+        letter-spacing: 2px;
+        font-weight: 500;
+        width: 49%;
+        text-align: left;
+    }
+
+    .agileits_w3layouts_more {
+        position: relative;
+    }
+
+    .agileits_w3layouts_more a {
+        font-size: 17px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        position: relative;
+    }
+
+    .agileits-banner-info span {
+        background: #E02C2E;
+        padding: 0.5em 2em;
+        color: #fff;
+        font-size: 1.1em;
+        padding: 5px 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    /*-- //banner-text --*/
+
+    /*-- 2. banner-top --*/
+
+    .w3layouts-banner-top {
+        background: url(../image/slider/banner.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        min-height: 700px;
+        width: 100%;
+    }
+
+    .w3layouts-banner-top1 {
+        background: url(../image/slider/banner1.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        min-height: 700px;
+    }
+
+    .w3layouts-banner-top2 {
+        background: url(../image/slider/banner2.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        min-height: 700px;
+    }
+
+    .w3layouts-banner-top3 {
+        background: url(../image/slider/banner3.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        min-height: 700px;
+    }
+
+    /*-- //banner-top --*/
+
+    /*  Slider */
+
+    .mySlides {
+        display: none
+    }
+
+
+    /* Slideshow container */
+
+    .slideshow-container {
+        max-width: 100%;
+        height: 100%;
+        position: relative;
+        margin: auto;
+    }
+
+    /* The dots/bullets/indicators */
+
+    .dot {
+        position: relative;
+        bottom: 50px;
+        height: 8px;
+        width: 8px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #717171;
+        border: 1px solid #fff;
+    }
+
+    /* Fading animation */
+
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 10s;
+        animation-name: fade;
+        animation-duration: 10s;
+    }
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: .8
+        }
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .8
+        }
+        to {
+            opacity: 1
+        }
+    }
+
+
+    /* ----------- Welcome Quote ----------- */
+
+    /*------ Navigation Menu ------------*/
+
+    /*-- nav --*/
+
+    .w3_navigation {
+        background: #021523;
+        padding: 0.9em 0;
+    }
+
+    .navbar-default {
+        background: none;
+        border: none;
+    }
+
+    .navbar {
+        margin-bottom: 0;
+    }
+
+    .collapsed {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .navbar-collapse {
+        padding: 0;
+    }
+
+    .navbar-right {
+        margin-right: 0;
+    }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #fff;
+        background: none;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .navbar-nav > li > a {
+        margin: 0;
+        padding: 0 1.2em;
+        text-transform: uppercase;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #16A085;
+    }
+
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #fff;
+        outline: none;
+    }
+
+    nav.navbar.navbar-default {
+        background: none;
+        padding: 0em;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #fff;
+        background: none;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #fff;
+    }
+
+    .navbar-default .navbar-nav > .active.open > a:focus {
+        background: #0a9dbd;
+        /** background: #16A085; **/
+        color: #fff;
+    }
+
+    .navbar-default .navbar-brand,
+    .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus {
+        color: #fff;
+    }
+
+    .navbar-brand {
+        padding: 0;
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 14px;
+        position: relative;
+        font-weight: 700;
+        z-index: 2
+    }
+
+    .navbar-brand img {
+        height: 8em;
+        widows: 8em;
+    }
+
+    .navbar-brand span {
+        color: #82b9e2;
+    }
+
+    p.logo_w3l_agile_caption {
+        text-transform: uppercase;
+        letter-spacing: 9px;
+        font-size: 11px;
+        color: #8c908c;
+        /*font-family: 'Open Sans', sans-serif;*/
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .agile_short_dropdown {
+        border-radius: 0;
+        background: #ffffff;
+        text-align: center;
+        padding: 0;
+        border: none;
+    }
+
+    .agile_short_dropdown li a {
+        text-transform: uppercase;
+        color: #212121;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 0.8em 0;
+    }
+
+    .agile_short_dropdown > li > a:hover {
+        color: #fff;
+        text-decoration: none;
+        background-color: #16A085;
+    }
+
+    a.menu__link {
+        font-size: 0.9em;
+        padding: 0px;
+    }
+
+    /*-- nav-effect --*/
+
+    .menu__list {
+        position: relative;
+        margin: 0.9em 0 0;
+    }
+
+    .menu__item {
+        display: block;
+        margin: 1em 0;
+    }
+
+    .menu__link {
+        font-size: 1.05em;
+        font-weight: bold;
+        display: block;
+        padding: 1em;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+        -khtml-user-select: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    /* Iris */
+
+    .menu--iris .menu__item {
+        margin: 0 0.3em;
+    }
+
+    .menu--iris .menu__link {
+        position: relative;
+        text-align: center;
+        -webkit-transition: color 0.3s;
+        transition: color 0.3s;
+        text-shadow: 0px 1px 3px #033815;
+    }
+
+    .menu--iris .menu__link:hover,
+    .menu--iris .menu__link:focus {
+        color: #929292;
+    }
+
+    .menu--iris .menu__item--current .menu__link,
+    .menu__link:hover ,.menu__item:active {
+        color: #16A085;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: 226%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+    }
+
+    /*-- //nav-effect --*/
+
