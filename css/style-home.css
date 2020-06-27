@@ -1678,83 +1678,10 @@ button.navbar-toggle:focus {
 }
 
 
-@media (max-width:767px) {
-    
-    .navbar-brand img {
-        height:60px;
-        width: 60px;
-        position: absolute;
-        left: 15px;
-        top: -8px;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        background-color: #16A085;
-        color: #fff;
-    }
-    .navbar-default .navbar-toggle .icon-bar {
-        background-color: #fff;
-    }
-    .navbar-default .navbar-toggle {
-        border-color: #fff;
-        margin: 0 15px;
-        font-weight: bold;
-        color: #fff;
-    }
-    .navbar-default .navbar-toggle:hover,
-    .navbar-default .navbar-toggle:focus {
-        background-color: #fff;
-        color: #3e3e3e;
-    }
-    .navbar-default .navbar-collapse,
-    .navbar-default .navbar-form {
-        border: none;
-    }
-    .nav > li > a {
-        display: inline-block;
-    }
-    .navbar-collapse {
-        box-shadow: none;
-    }
-    .menu__list {
-        margin: 0;
-        padding:0;
-        background: #0a0a0a;
-        text-align: center;
-    }
-    
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #fff;
-        background-color: #3e3e3e;
-    }
-    .navbar-nav .open .dropdown-menu > li > a,
-    .navbar-nav .open .dropdown-menu .dropdown-header {
-        padding: 10px 15px 10px 25px;
-    }
-    .navbar-default .navbar-collapse,
-    .navbar-default .navbar-form {
-        border: none;
-        position: absolute;
-        width: 100%;
-        background: #a5a5a5;
-        z-index: 999;
-        overflow-x: hidden;
-
-    }
-    .navbar-toggle {
-        margin: .8em 0 0;
-    }
-    .navbar-nav > li > a {
-        padding: 0 3em;
-    }
-    .navbar-toggle {
-        margin: 0;
-        border-radius: 0;
-        padding: 10px 10px;
-    }
-     .navbar-toggle .icon-bar {
-        display: block;
-        width: 22px;
-        height: 3px;
-    }
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
 }
