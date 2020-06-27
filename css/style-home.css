@@ -1681,18 +1681,24 @@ padding: 2px 15px;
     background: #fff;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
     .navbar-nav {
-        display: block;
-          clear: none;
+    display: block;
     float: right;
-    max-height: none;
-  
+    clear: none;
     }
   .navbar-nav li {
-    float: left;
+    background: #fefefe;
+    width: 100%;
   }
 .navbar-nav li a {
-    padding: 20px 30px;
+    padding:10px;
   }
+.navbar-collapse.in{
+    overflow: inherit;
+    }
+    .mcd-menu li:hover > ul, .mcd-menu li ul li:hover > ul{
+        display: block;
+    }
+}
