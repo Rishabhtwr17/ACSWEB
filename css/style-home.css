@@ -1681,16 +1681,18 @@ padding: 2px 15px;
     background: #fff;
 }
 
-@media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .navbar-nav {
-    clear: none;
+@media (min-width: 768px) {
+
+    .navbar-nav {
+        display: block;
+          clear: none;
     float: right;
     max-height: none;
-  }
   
+    }
+  .navbar-nav li {
+    float: left;
+  }
+.navbar-nav li a {
+    padding: 20px 30px;
+  }
