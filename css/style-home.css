@@ -1667,11 +1667,10 @@ padding: 2px 15px;
     height: 90vh;
 }
 
-button.navbar-toggle.collapsed {
+button.navbar-toggle{
     background: #554488;
-    padding: 15px;}
-
-
+    padding: 15px;
+}
 
 .navbar-toggle .icon-bar {
     display: block;
