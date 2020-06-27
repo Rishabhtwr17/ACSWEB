@@ -1668,6 +1668,6 @@ padding: 2px 15px;
 }
 
 button.navbar-toggle.collapsed {
-    background: #554488;
-    padding: 15px;
-}
+     background: #554488;
+    width: 10%;
+    padding: 5px 15px;}
