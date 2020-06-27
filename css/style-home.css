@@ -1669,12 +1669,10 @@ padding: 2px 15px;
 
 button.navbar-toggle.collapsed {
      background: #554488;
-    width: 10%;
     padding: 5px 15px;}
 
 
 button.navbar-toggle:focus {
     outline: 0; 
-    width: 10%;
     background: #3e3e3e;
 }
