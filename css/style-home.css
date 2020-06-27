@@ -1670,6 +1670,7 @@ padding: 2px 15px;
 button.navbar-toggle{
     background: #554488;
     padding: 15px;
+    width: 50px;
 }
 
 .navbar-toggle .icon-bar {
