@@ -1667,7 +1667,7 @@ padding: 2px 15px;
     height: 90vh;
 }
 
-button.navbar-toggle{
+.navbar-toggle{
     background: #554488;
     padding: 15px;
     width: 50px;
